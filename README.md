@@ -1,7 +1,7 @@
 # Metodología de la programación
 ## Universidad Politécnica de Aguascalientes
 
-##Ingeniería mecatrónica 
+## Ingeniería mecatrónica 
 
 Vanessa Nataly Ríos Rodríguez
 
