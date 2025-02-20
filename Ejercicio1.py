@@ -28,4 +28,4 @@ print('El área del rectánculo es ' , areaRectangulo)
 perimetroRectangulo = 2 * (longitud + ancho)
 print('El perímetro del rectángulo es ' , perimetroRectangulo)
 
-uuutyy
+
