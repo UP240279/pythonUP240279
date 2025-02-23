@@ -21,8 +21,8 @@ perimetro = ladoA + ladoB + ladoC
 print('El perímetro del triángulo es ' , perimetro)
 
 # Programa 6 Área y perímetro de un rectángulo
-longitud = 12
-ancho = 8
+longitud = float(input("Ingrese la longitud del rectángulo "))
+ancho = float(input("Ingrese el ancho del rectángulo "))
 areaRectangulo = longitud * ancho
 print('El área del rectánculo es ' , areaRectangulo)
 perimetroRectangulo = 2 * (longitud + ancho)
@@ -35,3 +35,13 @@ areaCirculo = pi * radioCirculo * radioCirculo
 print("El área del círculo es " , areaCirculo)
 circunferenciaCirculo = 2 * pi * radioCirculo
 print("La circunferencia del círculo es " , circunferenciaCirculo)
+
+# Programa 8 Pendiente e intersecciones con eye x y y de y=2x-2
+m = 2
+b = -2
+interseccionEnX = -b / m    # cuando y = 0, 0 = mx + b
+interseccionEnY = b    # cuando x = 0, y = b
+print("La pendiente de la recta es " , m)
+print("La intersección de la recta con el eje x es " , interseccionEnX)
+print("La intersección de la recta con el eje y es " , interseccionEnY)
+
