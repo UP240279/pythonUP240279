@@ -146,7 +146,7 @@ print("División del floor de 7 por 3: " , divisionFloor)
 print("Valor entero de 2.7: " , casteoEntero)
 print(resultado)
 
-# Programa 19 Tipo de "10" es igual a tipo de 10
+# Programa 19 Comprobar si el tipo de "10" es igual a tipo de 10
 tipo10String = type("10")
 tipo10Float = type(10)
 if tipo10String == tipo10Float:
@@ -157,5 +157,12 @@ print("El tipo de '10' es: " , tipo10String)
 print("El tipo de 10 es: " , tipo10Float)
 print(resultado)
 
-# Programa 20 
+# Programa 20 s
+valorConvertido = int(float('9.8'))
+if valorConvertido == 10:
+    resultado = "int('9.8') es igual a 10"
+else:
+    resultado = "int('9.8') no es igual a 10"
+print("int('9.8') convertido es: " , valorConvertido)
+print(resultado)
 
