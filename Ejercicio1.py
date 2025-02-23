@@ -45,3 +45,15 @@ print("La pendiente de la recta es " , m)
 print("La intersección de la recta con el eje x es " , interseccionEnX)
 print("La intersección de la recta con el eje y es " , interseccionEnY)
 
+# Programa 9 Pendiente y distancia euclidiana entre el punto (2, 2) y el punto (6, 10)
+import math
+x1 = 2
+y1 = 2
+x2 = 6
+y2 = 10
+pendiente = (y2 - y1) / (x2 - x1)
+distanciaEuclidiana = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+print("La pendiente entre los punros es " , pendiente)
+print("La distancia euclidiana entre los puntos es " , distanciaEuclidiana)
+
+
