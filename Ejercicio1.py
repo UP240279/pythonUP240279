@@ -81,4 +81,10 @@ for x, y in valoresY.items():
         x_0 = x
 print("\nEl valor de x en el que y es 0 es: {x_0}")
 
-    
+# Programa 12 Longitud de python y dragon
+pythonLen = len("python")
+dragonLen = len("dragon")
+comparacionFalsa = pythonLen < dragonLen
+print("La longitud de 'python' es: " , pythonLen)
+print("La longitud de 'dragon' es: " , dragonLen)
+print("La afirmación falsa es: ¿La longitud de 'dragon' es mayor que la de 'python'? " , comparacionFalsa)
