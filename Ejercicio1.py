@@ -56,4 +56,10 @@ distanciaEuclidiana = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
 print("La pendiente entre los punros es " , pendiente)
 print("La distancia euclidiana entre los puntos es " , distanciaEuclidiana)
 
-
+# Programa 10 Comparación de las pendientes de los programas 8 y 9
+m1 = m
+m2 = pendiente
+if m1 == m2:
+    resultado = "las pendientes son iguales"
+else:
+    "Las pendientes son diferentes"
