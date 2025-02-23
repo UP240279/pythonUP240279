@@ -28,3 +28,10 @@ print('El área del rectánculo es ' , areaRectangulo)
 perimetroRectangulo = 2 * (longitud + ancho)
 print('El perímetro del rectángulo es ' , perimetroRectangulo)
 
+# Programa 7 Radio de un círculo
+radioCirculo = float(input("Ingrese el radio del círculo "))
+pi = 3.14
+areaCirculo = pi * radioCirculo * radioCirculo
+print("El área del círculo es " , areaCirculo)
+circunferenciaCirculo = 2 * pi * radioCirculo
+print("La circunferencia del círculo es " , circunferenciaCirculo)
