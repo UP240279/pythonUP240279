@@ -89,7 +89,7 @@ print("La longitud de 'python' es: " , pythonLen)
 print("La longitud de 'dragon' es: " , dragonLen)
 print("La afirmación falsa es: ¿La longitud de 'dragon' es mayor que la de 'python'? " , comparacionFalsa)
 
-#Programa 13 sílaba "on" en python y dragon
+#Programa 13 Sílaba "on" en python y dragon
 pythonContieneOn = 'on' in 'python'
 dragonContieneOn = 'on' in 'dragon'
 if pythonContieneOn and dragonContieneOn:
@@ -100,17 +100,27 @@ print(resultado)
 
 # Programa 14 "jargon" en oración
 oracion = "I hope this course is not full of jargon"
-if "jerga" in oracion:
+if "jargon" in oracion:
     resultado = "La palabra 'jargon' se encuentra en la oración"
 else:
     resultado = "La parabra 'jargon' no se encuentra en la oración"
 print(resultado)
 
-# Programa 15 no hay "on" en python ni dragon
+# Programa 15 No hay "on" en python ni dragon
 pythonSinOn = "on" not in "python"
 dragonSinOn = "on" not in "dragon"
 if pythonSinOn and dragonSinOn:
     resultado = "La sílaba 'on' no se encuentra en 'dragon' ni en 'python'"
 else:
     resultado = "La sílaba 'on' se encuentra en al menos una de las palabras"
+print(resultado)
+
+# Programa 16 Longitud de python, castear a float y string
+longitudPython = len(python)
+longitudPythonFlotante = float(longitudPython)
+longitudPythonString = string(longitudPythonFlotante)
+print("La longitud del texto 'Python' es: " , longitudPython)
+print("La longitud como flotante es: " , longitudPythonFlotante)
+print("La longitud como string es: " , longitudPythonString)
+
 
