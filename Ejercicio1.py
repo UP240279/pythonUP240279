@@ -21,11 +21,17 @@ perimetro = ladoA + ladoB + ladoC
 print('El perímetro del triángulo es ' , perimetro)
 
 # Programa 6 Área y perímetro de un rectángulo
-longitud = 12
-ancho = 8
+longitud = float(input("Ingrese la longitud del rectángulo "))
+ancho = float(input("Ingrese el ancho del rectángulo "))
 areaRectangulo = longitud * ancho
 print('El área del rectánculo es ' , areaRectangulo)
 perimetroRectangulo = 2 * (longitud + ancho)
 print('El perímetro del rectángulo es ' , perimetroRectangulo)
 
-
+# Programa 7 Radio de un círculo
+radioCirculo = float(input("Ingrese el radio del círculo "))
+pi = 3.14
+areaCirculo = pi * radioCirculo * radioCirculo
+print("El área del círculo es " , areaCirculo)
+circunferenciaCirculo = 2 * pi * radioCirculo
+print("La circunferencia del círculo es " , circunferenciaCirculo)
