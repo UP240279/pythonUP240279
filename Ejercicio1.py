@@ -53,7 +53,7 @@ x2 = 6
 y2 = 10
 pendiente = (y2 - y1) / (x2 - x1)
 distanciaEuclidiana = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
-print("La pendiente entre los punros es " , pendiente)
+print("La pendiente entre los puntos es " , pendiente)
 print("La distancia euclidiana entre los puntos es " , distanciaEuclidiana)
 
 # Programa 10 Comparación de las pendientes de los programas 8 y 9
@@ -62,4 +62,23 @@ m2 = pendiente
 if m1 == m2:
     resultado = "las pendientes son iguales"
 else:
-    "Las pendientes son diferentes"
+    resultado = "Las pendientes son diferentes"
+print("La pendiente de la recta y = 2x - 2 es: " , m1)
+print("La pendiente entre los puntos (2, 2) y (6, 10) es: " , m2)
+print(resultado)
+
+# Programa 11 Valor de y para la ecuación y = x^2 + 6x + 9
+def calcularY(x):
+    return x**2 + 6*x + 9
+valoresX = [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]
+valoresY = {x: calcularY(x) for x in valoresX}
+print("Valores de y para diferentes valores de x:")
+for x, y in valoresY.items():
+    print("x = {x}, y = {y}")
+x_0 = None
+for x, y in valoresY.items():
+    if y == 0:
+        x_0 = x
+print("\nEl valor de x en el que y es 0 es: {x_0}")
+
+    
