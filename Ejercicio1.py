@@ -88,3 +88,12 @@ comparacionFalsa = pythonLen < dragonLen
 print("La longitud de 'python' es: " , pythonLen)
 print("La longitud de 'dragon' es: " , dragonLen)
 print("La afirmación falsa es: ¿La longitud de 'dragon' es mayor que la de 'python'? " , comparacionFalsa)
+
+#Programa 13 sílaba on en python y dragon
+pythonContieneOn = 'on' in 'python'
+dragonContieneOn = 'on' in 'dragon'
+if pythonContieneOn and dragonContieneOn:
+    resultado = "La sílaba 'on' se encuentra en ambas palabras"
+else:
+    resultado = "La sílaba 'on' no se encuentra en ambas palabras"
+print(resultado)
