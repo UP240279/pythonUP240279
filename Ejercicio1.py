@@ -157,7 +157,7 @@ print("El tipo de '10' es: " , tipo10String)
 print("El tipo de 10 es: " , tipo10Float)
 print(resultado)
 
-# Programa 20 s
+# Programa 20 Comprobar si int('9.8') es igual a 10
 valorConvertido = int(float('9.8'))
 if valorConvertido == 10:
     resultado = "int('9.8') es igual a 10"
@@ -165,4 +165,13 @@ else:
     resultado = "int('9.8') no es igual a 10"
 print("int('9.8') convertido es: " , valorConvertido)
 print(resultado)
+
+# Programa 21 Salario de la persona
+horas = float(input("Ingrese las horas trabajadas: "))
+tarifaPorHora = float(input("Ingrese la tarifa por hora: "))
+salario = horas * tarifaPorHora
+print("El salario de la persona es de " , salario)
+
+
+
 
