@@ -131,6 +131,6 @@ def esPar(numero):
         return False  
 numero = int(input("Ingresa un número: "))
 if esPar(numero):
-    print("El número {numero} es par")
+    print("El número" , esPar(numero) , "es par")
 else:
-    print("El número {numero} no es par")
+    print("El número" , esPar(numero) ,  "no es par")
