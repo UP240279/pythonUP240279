@@ -172,6 +172,11 @@ tarifaPorHora = float(input("Ingrese la tarifa por hora: "))
 salario = horas * tarifaPorHora
 print("El salario de la persona es de " , salario)
 
+# Programa 22 Cantidad de segundos que puede vivir una persona 
+años = int(input("Ingrese la cantidad de años: "))
+segundosPorAño = 3600
+segundosTotales = años * segundosPorAño
+print("Una persona que viva " , años , "años puede vivir " , segundosTotales , "segundos")
 
 
 
