@@ -131,6 +131,31 @@ def esPar(numero):
         return False  
 numero = int(input("Ingresa un número: "))
 if esPar(numero):
-    print("El número" , esPar(numero) , "es par")
+    print("El número" , numero , "es par")
 else:
-    print("El número" , esPar(numero) ,  "no es par")
+    print("El número" , numero ,  "no es par")
+
+# Program 18 División del floor de 7 por 3 es igual al valor int convertido de 2.7
+divisionFloor = 7 // 3
+casteoEntero = int(2.7)
+if divisionFloor == casteoEntero:
+    resultado = "La división del floor de 7 por 3 es igual al valor entero de 2.7"
+else:
+    resultado = "La división del floor de 7 por 3 no es igual al valor entero de 2.7"
+print("División del floor de 7 por 3: " , divisionFloor)
+print("Valor entero de 2.7: " , casteoEntero)
+print(resultado)
+
+# Programa 19 Tipo de "10" es igual a tipo de 10
+tipo10String = type("10")
+tipo10Float = type(10)
+if tipo10String == tipo10Float:
+    resultado = "El tipo de '10' es igual al tipo de 10"
+else:
+    resultado = "El tipo de '10' no es igual al tipo de 10"
+print("El tipo de '10' es: " , tipo10String)
+print("El tipo de 10 es: " , tipo10Float)
+print(resultado)
+
+# Programa 20 
+
