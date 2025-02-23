@@ -97,3 +97,12 @@ if pythonContieneOn and dragonContieneOn:
 else:
     resultado = "La sílaba 'on' no se encuentra en ambas palabras"
 print(resultado)
+
+# Programa 14 jargon en oración
+oracion = "I hope this course is not full of jargon"
+if "jerga" in oracion:
+    resultado = "La palabra 'jargon' se encuentra en la oración"
+else:
+    resultado = "La parabra 'jargon' no se encuentra en la oración"
+print(resultado)
+
