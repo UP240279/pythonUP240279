@@ -178,5 +178,8 @@ segundosPorAño = 3600
 segundosTotales = años * segundosPorAño
 print("Una persona que viva " , años , "años puede vivir " , segundosTotales , "segundos")
 
-
+#Programa 23 Script que muestre la tabla
+for i in range(1, 6):  
+    fila = [i ** j for j in range(5)]  
+    print(" ".join(map(str, fila)))  
 
