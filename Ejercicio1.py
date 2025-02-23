@@ -116,11 +116,21 @@ else:
 print(resultado)
 
 # Programa 16 Longitud de python, castear a float y string
-longitudPython = len(python)
+longitudPython = len("python")
 longitudPythonFlotante = float(longitudPython)
-longitudPythonString = string(longitudPythonFlotante)
+longitudPythonString = str(longitudPythonFlotante)
 print("La longitud del texto 'Python' es: " , longitudPython)
 print("La longitud como flotante es: " , longitudPythonFlotante)
 print("La longitud como string es: " , longitudPythonString)
 
-
+# Programa 17 Números pares divisibles entre 2
+def esPar(numero):
+    if numero % 2 == 0:
+        return True  
+    else:
+        return False  
+numero = int(input("Ingresa un número: "))
+if esPar(numero):
+    print("El número {numero} es par")
+else:
+    print("El número {numero} no es par")
