@@ -1,5 +1,5 @@
 # Programa 1 Edad
-edad = 18
+edad = int(18)
 
 # Programa 2 Altura
 miAltura = 1.65
@@ -37,10 +37,11 @@ circunferenciaCirculo = 2 * pi * radioCirculo
 print("La circunferencia del círculo es " , circunferenciaCirculo)
 
 # Programa 8 Pendiente e intersecciones con eye x y y de y=2x-2
-m = 2
-b = -2
-interseccionEnX = -b / m    # cuando y = 0, 0 = mx + b
-interseccionEnY = b    # cuando x = 0, y = b
+x = 0
+y = 0
+interseccionEnY = (2 * x) -2
+interseccionEnX = (y + 2) / 2
+m = interseccionEnY / -interseccionEnX
 print("La pendiente de la recta es " , m)
 print("La intersección de la recta con el eje x es " , interseccionEnX)
 print("La intersección de la recta con el eje y es " , interseccionEnY)
