@@ -1,11 +1,16 @@
+## PROGRAMAS DÍA 3
+
 # Programa 1 Edad
-edad = int(18)
+edad = 18
+print(type(edad))
 
 # Programa 2 Altura
 miAltura = 1.65
+print(type(miAltura))
 
 # Programa 3 Número complejo
 n = 4 + 3j
+print(type(n))
 
 # Programa 4 Área del Triángulo
 base = float(input("Ingresa la base del triángulo "))
@@ -69,26 +74,21 @@ print("La pendiente entre los puntos (2, 2) y (6, 10) es: " , m2)
 print(resultado)
 
 # Programa 11 Valor de y para la ecuación y = x^2 + 6x + 9
-def calcularY(x):
-    return x**2 + 6*x + 9
-valoresX = [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]
-valoresY = {x: calcularY(x) for x in valoresX}
-print("Valores de y para diferentes valores de x:")
-for x, y in valoresY.items():
-    print("x = {x}, y = {y}")
-x_0 = None
-for x, y in valoresY.items():
-    if y == 0:
-        x_0 = x
-print("\nEl valor de x en el que y es 0 es: {x_0}")
-
+x = int(input ("inserta el valor de x: "))
+y = x**2 + 6*x +9
+print("El valor de y es: " , y)
+if y == 0 :
+    print("y es 0 cuando x es: ", x)
+else:
+    print("y no es 0 cuado x es: ", x)
+    
 # Programa 12 Longitud de python y dragon
 pythonLen = len("python")
 dragonLen = len("dragon")
 comparacionFalsa = pythonLen < dragonLen
 print("La longitud de 'python' es: " , pythonLen)
 print("La longitud de 'dragon' es: " , dragonLen)
-print("La afirmación falsa es: ¿La longitud de 'dragon' es mayor que la de 'python'? " , comparacionFalsa)
+print("¿La longitud de 'dragon' es mayor que la de 'python'? " , comparacionFalsa)
 
 #Programa 13 Sílaba "on" en python y dragon
 pythonContieneOn = 'on' in 'python'
@@ -175,12 +175,13 @@ print("El salario de la persona es de " , salario)
 
 # Programa 22 Cantidad de segundos que puede vivir una persona 
 años = int(input("Ingrese la cantidad de años: "))
-segundosPorAño = 3600
-segundosTotales = años * segundosPorAño
+segundosPorHora = 3600
+horasPorAño = 8766
+segundosTotales = años * horasPorAño * segundosPorHora
 print("Una persona que viva " , años , "años puede vivir " , segundosTotales , "segundos")
 
 #Programa 23 Script que muestre la tabla
-for i in range(1, 6):  
-    fila = [i ** j for j in range(5)]  
-    print(" ".join(map(str, fila)))  
+filas = 5
+for num in range(1, filas + 1):
+    print(num, 1, num, num**2, num**3)
 
