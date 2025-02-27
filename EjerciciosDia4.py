@@ -40,5 +40,15 @@ print(company.title())
 print(company.swapcase())
 
 # Programa 9 Recortar (slice) la primera palabra de la cadena Coding For All
+primPal = company[0:6]
+print(primPal)
 
+# Programa 10 Compruebe si la cadena Coding For All contiene una palabra Coding utilizando el método index, find u otros
+print(company.find("Coding"))
+subcadena = "Coding"
+print(company.index(subcadena))
 
+# Programa 11 Reemplace la palabra 'Coding' en la cadena 'Coding For All' por Python
+print(company.replace("Coding" , "Python"))
+
+# Programa 12
