@@ -48,7 +48,7 @@ print(company.title())
 print(company.swapcase())
 
 # Programa 9 Recortar (slice) la primera palabra de la cadena Coding For All
-print("Programa 9")
+print("Programa 9") 
 primPal = company[0:6]
 print(primPal)
 
@@ -64,6 +64,5 @@ print(company.replace("Coding" , "Python"))
 
 # Programa 12 Cambie Python for All a Python for Everyone using the replace method or other methods
 print("Programa 12")
-print(company.replace("Python for All" , "Python for Everyone"))
-
+print(company.replace("Coding for All" , "Python for Everyone"))
 
