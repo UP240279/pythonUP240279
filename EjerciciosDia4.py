@@ -121,11 +121,38 @@ sentence = 'You cannot end a sentence with because because because is a conjunct
 sentenceSplit = sentence.split( )
 print(sentenceSplit.index("because"))
 
-# Programa 24 Utilice rindex para encontrar la posición de la primera aparición de la palabra 'because' en la siguiente oración:
+# Programa 24 Utilice rindex para encontrar la posición de la última aparición de la palabra 'because' en la siguiente oración:
 # 'You cannot end a sentence with because because because is a conjunction'
 print("Programa 24")
-word = "because"
-print(sentenceSplit.rindex(word))
+print(sentence.rindex("because"))
 
+# Programa 25 Elimina la frase 'because because because' en la siguiente oración:
+# 'You cannot end a sentence with because because because is a conjunction'
+print("Programa 25")
+print(sentence[0:30] + sentence[54:71])
 
+# Programa 26 Encuentra la posición de la primera aparición de la palabra 'because' en la siguiente oración:
+# 'You cannot end a sentence with because because because is a conjunction'
+print("Programa 26")
+print(sentenceSplit.index("because"))
+
+# Programa 27 Elimina la frase 'because because because' en la siguiente oración:
+# 'You cannot end a sentence with because because because is a conjunction'
+print("Programa 27")
+print(sentence[0:30] + sentence[54:71])
+
+# Programa 28 ¿'Coding For All' comienza con una subcadena 'coding'?
+print("Programa 28")
+print(company.startswith("Coding"))
+
+# Programa 29 ¿'Coding For All' termina con una subcadena 'coding'?
+print("Programa 29")
+print(company.endswith("Coding"))
+
+# Programa 30 ' Coding For All '  elimina los espacios finales izquierdo y derecho en la cadena dada
+print("Programa 30")
+string = ' Coding For All '
+print(string.strip( ))
+
+# Programa 31 
 
