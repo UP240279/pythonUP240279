@@ -154,5 +154,51 @@ print("Programa 30")
 string = ' Coding For All '
 print(string.strip( ))
 
-# Programa 31 
+# Programa 31 ¿Cuál de las siguientes variables devuelve True cuando usamos el método isidentifier()?
+# 30DaysOfPython
+# thirty_days_of_python
+print("Programa 31")
+variable1 = "30DaysOfPython"
+variable2 = "thirty_days_of_python"
+print(variable1.isidentifier())
+print(variable2.isidentifier())
 
+# Programa 32 La siguiente lista contiene los nombres de algunas bibliotecas de Python: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+# Únase a la lista con un hash con una cadena de espacios
+print("Programa 32")
+libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print("#".join(libraries))
+
+# Programa 33 Utilice la secuencia de escape de nueva línea para separar las siguientes oraciones
+# I am enjoying this challenge
+# I just wonder what is next
+print("Programa 33")
+print("I am enjoying this challenge.\nI just wonder what is next.")
+
+# Programa 34 Utilice una secuencia tab espace para escribir las siguientes líneas
+# Name      Age     Country   City
+# Asabeneh  250     Finland   Helsinki
+print("Programa 34")
+print('Name\tAge\tCountry\tCity')
+print('Asabeneh\t250\tFinland\tHelsinky')
+
+# Programa 35 Utilice el método string formatting para mostrar lo siguiente:
+# radius = 10
+# area = 3.14 * radius ** 2
+# The area of a circle with radius 10 is 314 meters square
+print("Programa 35")
+radius = 10
+area = 3.14 * radius ** 2
+print("The area of a circle with radius %s is %s meters square"%(radius, area))
+
+# Programa 36 Realice lo siguiente utilizando métodos string formatting
+print("Programa 36")
+a = 8
+b = 6
+print("{} + {} = {}".format(a, b, a + b))
+print("{} - {} = {}".format(a, b, a - b))
+print("{} * {} = {}".format(a, b, a * b))
+print("{} / {} = {:.2f}".format(a, b, a / b))
+print("{} % {} = {}".format(a, b, a % b))
+print("{} // {} = {}".format(a, b, a // b))
+print("{} ** {} = {}".format(a, b, a ** b))
