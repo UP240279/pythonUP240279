@@ -1,6 +1,7 @@
 ## PROGRAMAS DÍA 5
 
 ## Ejercicios: Nivel 1
+print("Ejercicios: Nivel 1")
 
 # Porgrama 1 Declarar una lista vacía
 print("Programa 1")
@@ -138,6 +139,7 @@ fullStack.insert(6, "SQL")
 print(fullStack)
 
 ## Ejercicios: Nivel 2
+print("Ejercicios: Nivel 2")
 
 # Programa 0 lista de edades 
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
@@ -179,6 +181,28 @@ comparison = (min and max)
 print("El resultado de la comparación es:" , comparison)
 
 # Programa 1 Encuentre el país o los países intermedios en la lista de países
-import countries as p
-paises = p.countries
+print("Programa 1")
+import countries as c
+print(len(c.countries)) 
+media = int(len(c.countries) / 2)
+print(media)
+print(c.countries[media] + ", " + c.countries[media + 1])
+if 'Mexico' in c.countries:
+    print("México está en:" , c.countries.index('Mexico'))
+else:
+    print('No está')
+
+# Programa 2 Dividir la lista de países en dos listas iguales si es par o no hay un país más para la primera mitad
+print("Programa 2")
+print(int(len(c.countries) / 2))
+list1 = c.countries[0:96]
+list2 = c.countries[96:193]
+print('Primera lista:' , len(list1) , list1)
+print('Segunda lista:' , len(list2) , list2)
+
+# Programa 3 ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark'] Desglose los primeros tres países y el resto como países escandinavos
+print("Programa 3")
+countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+scandicCountries = countries[3:]
+print(scandicCountries)
 
