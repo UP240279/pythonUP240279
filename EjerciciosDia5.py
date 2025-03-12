@@ -197,8 +197,10 @@ print("Programa 2")
 print(int(len(c.countries) / 2))
 list1 = c.countries[0:96]
 list2 = c.countries[96:193]
-print('Primera lista:' , len(list1) , list1)
-print('Segunda lista:' , len(list2) , list2)
+print("Longitud de la primera lista:" , len(list1))
+print('Primera lista:' , list1)
+print("Longitud de la segunda lista:" , len(list2))
+print('Segunda lista:' , list2)
 
 # Programa 3 ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark'] Desglose los primeros tres países y el resto como países escandinavos
 print("Programa 3")
