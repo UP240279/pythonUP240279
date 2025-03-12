@@ -186,7 +186,7 @@ import countries as c
 print(len(c.countries)) 
 media = int(len(c.countries) / 2)
 print(media)
-print(c.countries[media] + ", " + c.countries[media + 1])
+print(c.countries[media] + ", " + c.countries[media + 1]) 
 if 'Mexico' in c.countries:
     print("México está en:" , c.countries.index('Mexico'))
 else:
