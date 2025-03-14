@@ -67,3 +67,5 @@ print("Programa 3")
 countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
 scandicCountries = countries[3:]
 print(scandicCountries)
+#REVISADO
+print("Revisado")
