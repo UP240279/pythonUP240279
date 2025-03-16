@@ -1,5 +1,8 @@
 ## PROGRAMAS DÍA 6
 
+#Ejercicios: Nivel 1
+print("Ejercicios: Nivel 1")
+
 # Programa 1 Crear una tupla vacía
 print("Programa 1")
 emptyTuple = tuple()
@@ -23,6 +26,6 @@ print("La cantidad de hermanos que tengo es:" , len(siblings))
 
 # Programa 5 Modifica la tupla de hermanos y agrega el nombre de tu padre y madre y asígnalo a familyMembers
 print("Programa 5")
-
-
-
+parents = ("Adriana", "Carlos")
+familyMembers = siblings + parents
+print(familyMembers)
