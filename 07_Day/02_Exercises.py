@@ -30,9 +30,9 @@ print(disjoint)
 # Programa 5 Unir A con B y B con A
 print("Programa 5")
 unionAB = A.union(B)
-print(unionAB)
+print("Unión AB:" , unionAB)
 unionBA = B.union(A)
-print(unionBA)
+print("Unión BA:" , unionBA)
 
 # Programa 6 ¿Cuál es la diferencia simétrica entre A y B?
 print("Programa 6")
