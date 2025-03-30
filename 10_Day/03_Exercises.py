@@ -1,7 +1,6 @@
 # Ejercicios: Nivel 3
 print("Ejercicios: Nivel 3")
 
-from collections import Counter
 
 # Programa 1 
 # Go to the data folder and use the countries.py file. 
