@@ -53,7 +53,7 @@ for language in dictLanguages:
              dictLanguages[language] = country['population'] + dictLanguages[language]
 sortValuesLanguagesPopulation = sorted(dictLanguages.values(), reverse = True)
 sorfKeysLanguagesPopulation = sorted(dictLanguages, key = dictLanguages.get, reverse = True)
-print('Los 10 idiomas mas hablados en el mundo son (orden decendente):')
+print('Los 10 idiomas mas hablados en el mundo son (orden decreciente):')
 for i in range(10):
     print("Idioma:" , sorfKeysLanguagesPopulation[i] , "Cantidad de personas que lo hablan:" , sortValuesLanguagesPopulation[i])
 
