@@ -61,9 +61,12 @@ for i in range(10):
 # Programa 3.3
 # Find the 10 most populated countries in the world
 print("Programa 3.3")
+countryPopulation = []
+setPopulation = set(countryPopulation)
+dictPopulation = {}
 for country in data:
-    dictLanguages[country["name"]] = country["population"]
-sortedCountries = sorted(dictLanguages.items(), key = lambda x: x[1], reverse = True)
+    dictPopulation[country["name"]] = country["population"]
+sortedCountries = sorted(dictPopulation.items(), key = lambda x: x[1], reverse = True)
 print("Los 10 países más poblados son:")
 for i in range(min(10, len(sortedCountries))):
     country, population = sortedCountries[i]
