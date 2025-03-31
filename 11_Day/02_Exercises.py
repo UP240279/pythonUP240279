@@ -111,7 +111,3 @@ def calculateStd(list):
     variance = round(sumN / len(list), 2)
     return variance * 0.5
 print('Desviación estándar:', calculateStd(grades))
-
-
-
-
