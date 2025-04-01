@@ -3,7 +3,6 @@ print("Ejercicios: Nivel 2")
 print(" ")
 
 import random
-import string
 
 # Programa 1
 # Write a function list_of_hexa_colors.
