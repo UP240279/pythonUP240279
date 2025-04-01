@@ -12,7 +12,7 @@ print("Programa 1")
 def listOfHexaColors (num):
     hexaColor = []
     for j in range(num):
-        randomColor = '#' + ''.join(random.choices('0123456789abcdef' , k = 6))
+        randomColor = '#' + ''.join(random.choices('0123456789ABCDEF' , k = 6))
         hexaColor.append(randomColor)
     return hexaColor
 print("Números de colores hexadecimales: ")
@@ -40,7 +40,7 @@ def generateColors (type, num):
     colors = []
     if type == 'hexa':
         for j in range(num):
-            randomColor = '#' + ''.join(random.choices('0123456789abcdef', k = 6))
+            randomColor = '#' + ''.join(random.choices('0123456789ABCDEF', k = 6))
             colors.append(randomColor)
         return colors
     else:
