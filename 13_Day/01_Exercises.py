@@ -25,7 +25,7 @@ print("Lista aplanada:" , flattenedList)
 # Programa 3
 # Using list comprehension create the following list of tuples:
 print("Programa 3")
-listOfTuples = [(i, 1, i, i**2,i**3,i**4,i**5) for i in range(0,11)]
+listOfTuples = [(i, 1, i, i**2, i**3, i**4, i**5) for i in range(0,11)]
 print("Lista generada:" , listOfTuples)
 
 
