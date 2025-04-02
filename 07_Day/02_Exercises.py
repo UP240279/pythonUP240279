@@ -52,3 +52,4 @@ del A
 del B
 print("Los sets ya no existen")
 
+print("revisado")
