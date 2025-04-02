@@ -27,3 +27,5 @@ for n in range(101):
         odds = odds + n
 print("La suma de todos los pares es de:" , evens)
 print("La suma de todos los impares es de:" , odds)
+
+print("revisado")
