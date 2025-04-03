@@ -149,9 +149,3 @@ print("Programa 15")
 def getLastTenCountries(lst):
     return lst[-10:]
 print("Los últimos 10 países de la lista son:" , list(getLastTenCountries(countries2)))
-
-
-
-
-
-
