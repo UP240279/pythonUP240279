@@ -47,3 +47,4 @@ def rgbColorGen ():
     blue = random.randint(0,255)
     return (red,green,blue)
 print("Colores RGB:" , rgbColorGen())
+print("Revisado")

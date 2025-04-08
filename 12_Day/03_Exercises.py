@@ -26,3 +26,5 @@ def randomNum ():
         lstRandumNum.add(randomN)
     return list(lstRandumNum)
 print("Números aleatorios:" , randomNum())
+
+print("Revisado")

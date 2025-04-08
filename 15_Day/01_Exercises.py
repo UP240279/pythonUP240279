@@ -80,3 +80,5 @@ print(int("34"))
 print("Ejemplo 10: ZeroDivisionError")
 # print(2 / 0)     # Error: No se puede dividir por 0.
 print(2 / 1)
+
+print("Revisado")
